@@ -6,3 +6,4 @@ smile
 elucidate
 elite
 establish
+happy
