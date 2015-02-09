@@ -4,4 +4,8 @@ linear
 rails
 smile
 elucidate
+<<<<<<< HEAD
 establish
+=======
+elite
+>>>>>>> 92a88798b9d6cd7b590140290533c1786d88908e
