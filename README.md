@@ -4,6 +4,7 @@
 * 단, 끝말잇기 규칙을 참고하여 단어를 선정해주세요.
 * 끝말잇기 규칙에 맞는 단어를 넣은 request는 accept/merge, 그렇지 않으면 decline/reject 됩니다.
 * 단어가 10개가 되면 release-v1.0.0을 만들어보겠습니다. 그리고 pull request 주신 분들에게도 pul request 드리겠습니다, merge 해보실 수 있도록. 
+* pull request 주신 분들에게 pull request를 드릴 겁니다. 기여해주신 단어의 첫글자를 사용하며, 시작과 끝이 같은 단어를 추가해드릴 겁니다. 예를 들면, brazil를 주신 분에게는 blob를 드릴 겁니다. 그러면 merge 할 때 단어의 연결에는 영향을 주지 않도록 합니다. github - blob - brazil - linear 처럼 되는 겁니다.
 
 # 왜 하나요?
 * git과 github을 경험해 봅시다.
