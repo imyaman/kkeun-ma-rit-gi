@@ -6,5 +6,7 @@ smile
 elucidate
 elite
 establish
+happy
+youth
 helloworld
 demonstrate
