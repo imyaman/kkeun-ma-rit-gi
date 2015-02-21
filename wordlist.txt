@@ -6,4 +6,5 @@ smile
 elucidate
 elite
 establish
+hash
 helloworld
