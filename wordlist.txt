@@ -5,3 +5,9 @@ rails
 smile
 eliminate
 elucidate
+elite
+establish
+happy
+youth
+helloworld
+demonstrate
