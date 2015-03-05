@@ -13,3 +13,4 @@ helloworld
 demonstrate
 enumerator
 radius
+sudo
