@@ -13,4 +13,5 @@ helloworld
 demonstrate
 enumerator
 radius
+socks
 sudo
