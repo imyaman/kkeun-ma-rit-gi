@@ -7,4 +7,5 @@ elucidate
 elite
 establish
 helloworld
+demand
 demonstrate
