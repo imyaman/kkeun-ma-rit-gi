@@ -27,3 +27,6 @@
 * http://rogerdudler.github.io/git-guide/index.ko.html
 * http://www.slideshare.net/dhrim/git-12030742
 * http://www.slideshare.net/ajaxiankr/2011-kth-h3-track-b-4-advanced-git-by-aj
+
+# Introduce
+* This repository is for learning git and github. Some people use only push and pull, more people should use pull request, merge, branch and version.
