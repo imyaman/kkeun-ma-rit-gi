@@ -17,5 +17,6 @@ demand
 demonstrate
 enumerator
 radius
+socks
 sudo
 orange
