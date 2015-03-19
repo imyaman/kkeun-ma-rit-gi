@@ -18,5 +18,6 @@ demonstrate
 enumerator
 radius
 socks
+status
 sudo
 orange
