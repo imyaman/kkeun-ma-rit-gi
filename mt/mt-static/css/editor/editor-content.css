@@ -1,0 +1,45 @@
+/*
+# Editor Content
+
+editor-content.css is the set of styles for edit content iframe
+
+*/
+
+
+html {
+    padding: 10px;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    line-height: 1.62;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+/* insert stuff */
+font[face|="-editor"] {
+    font-family: inherit;
+}
+
+
+*[contenteditable="false"] {
+    cursor: default;
+    -moz-user-select: all;
+    -moz-user-input: none;
+    -moz-user-focus: none;
+    -khtml-user-select: all;
+}
+
+body[class="editor-transient"] *[contenteditable="false"] {
+    -moz-user-select: inherit !important;
+}

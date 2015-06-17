@@ -1,0 +1,28 @@
+/*  $Id$  */
+
+/* Codebase */
+@import url("css/reset.css");
+
+/* Layout */
+@import url("css/structure.css");
+
+/* Form */
+@import url("css/form.css");
+
+/* Listing */
+@import url("css/listing.css");
+
+/* Sortable */
+@import url("css/sortable.css");
+
+/* Dialog */
+@import url("css/dialog.css");
+
+/* Messaging */
+@import url("css/messaging.css");
+
+/* Utilities */
+@import url("css/utilities.css");
+
+/* Icons */
+@import url("css/icons.css");

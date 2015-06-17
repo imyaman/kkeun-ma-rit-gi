@@ -1,0 +1,41 @@
+@import url(/mt/mt-static/support/theme_static/eiger/css/base.css);
+@import url(/mt/mt-static/support/theme_static/eiger/css/screen.css);
+
+/* for Comments, Trackbacks */
+@import url(/mt/mt-static/support/theme_static/eiger/css/feedback.css);
+
+
+/*
+/ Sample Style
+*/
+
+/* Body
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+*/
+
+/* Category Label
+.label {
+  border-radius: 3px;
+}
+
+.label.category_basename {
+  background-color: green;
+}
+*/
+
+/* Responsive (Media Query)
+body {
+  background-color: lightgrey;
+}
+
+@media (min-width: 700px) {
+  background-color: whitesmoke;
+}
+
+@media (min-width: 930px) {
+  background-color: white;
+}
+*/

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>B1</title>
+    <link rel="alternate" type="text/html" href="http://cal.youre.space/" />
+    <link rel="self" type="application/atom+xml" href="http://cal.youre.space/atom.xml" />
+    <id>tag:cal.youre.space,2015-06-16://1</id>
+    <updated>2015-06-16T09:09:04Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type 6.0.8</generator>
+
+<entry>
+    <title>E1</title>
+    <link rel="alternate" type="text/html" href="http://cal.youre.space/blog/2015/06/e1.html" />
+    <id>tag:cal.youre.space,2015://1.1</id>
+
+    <published>2015-06-16T05:43:36Z</published>
+    <updated>2015-06-16T09:09:04Z</updated>
+
+    <summary>e1...</summary>
+    <author>
+        <name>Sangyong Gwak</name>
+        
+    </author>
+    
+    
+    <content type="html" xml:lang="en-us" xml:base="http://cal.youre.space/">
+        <![CDATA[<p><img alt="02.jpg" src="http://cal.youre.space/02.jpg" class="mt-image-none" width="1654" height="2339" />e1</p>]]>
+        
+    </content>
+</entry>
+
+</feed>

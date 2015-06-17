@@ -1,0 +1,592 @@
+/* #From.css
+
+Form.css is the set of styles for form related elements
+
+## Base Structure
+
+.field class is the container block for form field. It has two main ingredients, field-header and field content.
+field-header is used for wrapping label element, field-content is used for wrapping form field like the following.
+
+```
+<div class="field">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <input type="text" class="text short" placeholder="Lorem ipsum">
+  </div>
+</div>
+```
+
+.field-left-label class set field header and content in line horizontally.
+
+```
+<div class="field field-left-label ">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <textarea class="text high">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+  </div>
+</div>
+```
+
+.field-top-label class set field header and content in line vertically.
+
+```
+<div class="field field-top-label">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <input type="text" class="text short" placeholder="Lorem ipsum">
+  </div>
+</div>
+```
+
+If You want to set some fiel in one line, use .field-inline instead .field
+
+```
+<div class="field-inline">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <input type="checkbox" placeholder="Lorem ipsum">
+  </div>
+</div>
+<div class="field-inline">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <input type="checkbox" placeholder="Lorem ipsum">
+  </div>
+</div>
+```
+
+*/
+
+fieldset {
+    margin-bottom: 3em;
+}
+.field {
+    padding: 0;
+    margin: 0 0 15px;
+}
+.field-left-label .field-header {
+    float: left;
+    width: 12em;
+    margin-left: 0.8em;
+    padding: 0.62em 0;
+    text-align: right;
+}
+.field-left-label .field-content {
+    margin-left: 14em;
+    padding: 0.5em 0;
+}
+.field-top-label .field-header {
+    margin-bottom: 5px;
+}
+.field-top-label .field-header label {
+    vertical-align: baseline;
+}
+.field-top-label .field-content {
+    margin: 3px 0;
+}
+.field-inline,
+.field-inline .field-header,
+.field-inline .field-content {
+    display: inline;
+}
+.field-inline {
+    margin-right: 10px;
+}
+.field-content-text {
+    padding-top: 5px;
+}
+.field-no-header .field-header {
+    display: none;
+}
+.field-no-header .field-content {
+    margin-left: 0;
+}
+.field .hint {
+    margin: 5px 0 0;
+    font-size: 90%;
+}
+.field-top-label .hint {
+    width: 100%;
+}
+
+input,
+select,
+textarea,
+button,
+.button {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input {
+    padding: 0 0.25em;
+}
+textarea {
+    padding: 0.2em 0.25em;
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+label textarea {
+    margin-top: 0.62em;
+}
+input[type=checkbox],
+input[type=radio] {
+    padding: 0;
+}
+input[type=file] {
+    background: #ffffff;
+}
+.text,
+.button {
+    line-height: normal;
+}
+.text::-moz-focus-inner,
+.button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+## Text Filed
+
+.text is for basic style for text field.
+
+```
+<p><input type="text" class="text" placeholder="text"></p>
+```
+
+<h3>Options for Width Control</h3>
+
+You can choose optional classes from field width
+
+```
+<p><input type="text" class="text short" placeholder="short"></p>
+<p><input type="text" class="text med" placeholder="medium"></p>
+<p><input type="text" class="text full" placeholder="full"></p>
+```
+
+<h3>Options for Height Control</h3>
+
+You can also set filed height with preset classes
+
+```
+<p><input type="text" class="text low" placeholder="low"></p>
+<p><input type="text" class="text high" placeholder="high"></p>
+<p><input type="text" class="text highest" placeholder="highest"></p>
+```
+
+<h3>Options for Input Type</h3>
+
+You can choose optional classes from field type
+
+```
+<p><input type="text" class="text number" placeholder="number"></p>
+<p><input type="text" class="text days" placeholder="days"></p>
+<p>
+  <input type="text" class="text date" placeholder="date">
+  <input type="text" class="text time" placeholder="time">
+  <input type="text" class="text min" placeholder="min">
+</p>
+<p><input type="text" class="text datetime" placeholder="datetime"></p>
+<p><input type="text" class="text path" placeholder="path"></p>
+<p><input type="text" class="text title" placeholder="title"></p>
+<p><input type="text" class="text query" placeholder="query"></p>
+```
+
+<h3>On Error</h3>
+
+If you want to show error on text fields, use .error class
+
+```
+<p><input type="text" class="text error" placeholder="Error"></p>
+```
+
+<h3>Disabled/Read Only</h3>
+
+.disabled class is the style for text disabled (literally)
+
+<p><input type="text" class="text disabled" placeholder="disabled"></p>
+
+.readonly class is interchangeable with .disabled
+
+<p><input type="text" class="text readonly" placeholder="read only"></p>
+
+*/
+
+.text {
+    height: 1.75em;
+    width: 75%;
+    outline: 0;
+    border: 1px solid #adadad;
+    border-top-color: #323232;
+    line-height: 1.3;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    border-radius: 2px;
+}
+.text.short,
+.text.password {
+    width: 180px;
+}
+.text.med {
+    width: 50%;
+}
+.text.full,
+.edit-screen .text {
+    width: 100%;
+    max-width: 100%;
+}
+.text.number,
+.text.num,
+.text.days {
+    width: 4em;
+    text-align: center;
+}
+.text.date {
+    width: 7.5em;
+}
+.text.time,
+.text.min {
+    width: 5.5em;
+}
+.text.datetime {
+    width: 10em;
+}
+.text.path {
+    width: 12em;
+    margin: 0 0.2em;
+}
+.text.low {
+    min-height: 5em;
+}
+.text.high {
+    min-height: 15em;
+}
+.text.highest {
+    min-height: 35em;
+}
+.text.query {
+    font-size: 150%;
+}
+.text.title {
+    font-size: 200%;
+    line-height: 1.2;
+}
+.text:hover,
+.text:focus {
+    box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.text:hover {
+    border-color: #a0a0a0;
+}
+.text:focus {
+    outline: 0;
+    border-color: #0076BF;
+}
+
+.text.error{
+    border-color: #bf241f;
+}
+.text.error:focus{
+    border-color: #6d1418;
+}
+
+
+.text.disabled,
+.text[disabled],
+.text.readonly,
+.text[readonly] {
+    border-color: #dcdddd;
+    background-color: #f3f3f3 ! important;
+    box-shadow: none;
+}
+.text.disabled,
+.text[disabled] {
+    color: #9ea1a3;
+}
+.text.readonly,
+.text[readonly] {
+    cursor: text;
+}
+
+/* ## Select List
+
+```
+<div class="field">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <select>
+      <option>Lorem ipsum</option>
+    </select>
+  </div>
+</div>
+```
+
+<h3>On Error</h3>
+
+set .error class at the select element.
+
+```
+<div class="field">
+  <div class="field-header">
+    <label>Lorem ipsum</label>
+  </div>
+  <div class="field-content">
+    <select class="error">
+      <option>Lorem ipsum</option>
+    </select>
+  </div>
+</div>
+```
+
+*/
+
+
+
+select {
+    height: 1.75em;
+    border: 1px solid #c0c6c9;
+    font-size: 12px;
+    box-shadow: 0 1px 0 #f3f3f3;
+    white-space: nowrap;
+}
+.col select {
+    width: 100%;
+}
+select.error {
+    border-color: #c53d43 ! important;
+}
+
+/* -- Batch Edit */
+#notification-listing-table input[type="text"],
+.batch-edit input[type="text"] {
+    width: 100%;
+}
+
+#notification-listing-table .url input[type="text"] {
+    width: 60%;
+}
+
+
+/*
+## Buttons
+
+.button class is the style for standard button UI.
+
+```
+<butotn class="button">Lorem ipsum</button>
+```
+
+You can set .button class to a link as well
+
+```
+<a class="button">Lorem ipsum</a>
+```
+
+<h3>Options for Type</h3>
+
+CMS buttons usually have one or two optional classes for button's action priority.
+
+```
+<button class="button action">Action</button>
+<button class="button action primary">Primary</button>
+```
+
+<h3>Disabled</h3>
+
+You can disable buttons adding disabled class.
+
+```
+<a class="button action disabled">Action</a>
+<a class="button action primary disabled">Primary</a>
+```
+
+<h3>Split button</h3>
+
+```
+<div class="split">
+  <a class="button action">Create New</a>
+  <a class="toggle-button button detail-link"><img src="../../mt-static/images/arrow/arrow-toggle-black.png"></a>
+  <div id="fav-actions" class="fav-actions detail" style="display: block;">
+    <ul id="fav-actions-list">
+      <li id="fav-action-entry" class="fav-action"><a class="fav-action-link">Entry</a></li>
+      <li id="fav-action-page" class="fav-action"><a class="fav-action-link">Page</a></li>
+      <li id="fav-action-asset" class="fav-action"><a class="fav-action-link">Asset</a></li>
+      <li id="fav-action-blog" class="fav-action"><a class="fav-action-link">Blog</a></li>
+    </ul>
+  </div>
+</div>
+```
+
+*/
+
+.button {
+    cursor: pointer;
+    overflow: visible;
+    display: inline-block;
+    outline: none;
+    margin-right: 5px;
+    padding: 0 0.5em;
+    vertical-align: middle;
+    line-height: 1.75em;
+    white-space: nowrap;
+    border: 1px solid #666666;
+    background-color: #ffffff;
+    color: #1A1A1A;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.4);
+    border-radius: 3px;
+}
+.button:focus {
+    border-color: #0076BF;
+}
+.button:link,
+.button:visited {
+    color: #1A1A1A;
+}
+.button:hover {
+    border-color: #323232;
+    color: #000000;
+    text-shadow: none;
+    box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.9), inset 0 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+.button:active {
+    background-color: #eeefef;
+    background-image: -moz-linear-gradient(#eeefef, #f7f7f7);
+    background-image: -webkit-linear-gradient(#eeefef, #f7f7f7);
+    background-image: linear-gradient(#eeefef, #f7f7f7);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+    color: #323232;
+}
+
+.button.action {
+    border-color: #7b7c7d;
+    background-color: #666666;
+    color: #fffffc;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 rgba(255,255,255,0.4);
+}
+.button.action:hover {
+    border-color: #323232;
+    background-color: #b2b2b2;
+}
+.button.action:active {
+    background-color: #999999;
+    background-image: -moz-linear-gradient(#999999, #8c8c8c);
+    background-image: -webkit-linear-gradient(#999999, #8c8c8c);
+    background-image: linear-gradient(#999999, #8c8c8c);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.button.primary {
+    border-color: #004B9A;
+    background-color: #0076BF;
+    background-image: -moz-linear-gradient(#0076BF, #006ea5);
+    background-image: -webkit-linear-gradient(#0076BF, #006ea5);
+    background-image: linear-gradient(#0076BF, #006ea5);
+}
+.button.primary:hover {
+    border-color: #00437F;
+    background: #008FD6;
+}
+.button.primary:active {
+    background-color: #006DA3;
+    background-image: -moz-linear-gradient(#005B88, #006DA3);
+    background-image: -webkit-linear-gradient(#005B88, #006DA3);
+    background-image: linear-gradient(#005B88, #006DA3);
+}
+
+.button.disabled,
+.button.action.disabled,
+.button.primary.disabled {
+    border-color: #e6e6e6 ! important;
+    cursor: default ! important;
+    background: #f7f7f7 ! important;
+    color: #e6e6e6 ! important;
+    text-shadow: none ! important;
+    box-shadow: none ! important;
+}
+
+.mt-edit-field-button {
+    margin-left: 0.5em;
+}
+
+.inline-editor .button,
+.inline-editor .ui-button {
+    margin: 0 0 0 5px;
+}
+
+.split .button {
+    float: left;
+    height: 22px;
+    margin: 0;
+    font-size: 13px;
+}
+.split .action {
+    min-width: 5.5em;
+    border-radius: 2px 0 0 2px;
+    line-height: 1.75em;
+}
+.split .toggle-button {
+    position: relative;
+    width: 22px;
+    padding: 0;
+    border-radius: 0 2px 2px 0;
+}
+.split .button:hover {
+    box-shadow: none;
+}
+.split .detail {
+    display: none;
+    width: 100%;
+    font-size: 90%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ui-helper-hidden-accessible {
+    position: absolute;
+}
+
+#alignment .ui-button {
+    width: 50px;
+    margin: 0;
+}
+
+.field {
+    zoom: 1;
+}
+.field:before,
+.field:after {
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: "\0020";
+}
+.field:after {
+    clear: both;
+}
+
