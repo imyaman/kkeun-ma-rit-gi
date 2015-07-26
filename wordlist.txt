@@ -24,3 +24,5 @@ sudo
 orange
 earn
 nisioisin
+night
+truck
