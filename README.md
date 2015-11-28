@@ -3,7 +3,16 @@
 * wordlist.txt 파일 끝에 단어를 하나만 넣어서 pull request 해주세요.
 * 단, 끝말잇기 규칙을 참고하여 단어를 선정해주세요.
 * 끝말잇기 규칙에 맞는 단어를 넣은 request는 accept/merge, 그렇지 않으면 decline/reject 됩니다.
-* 단어가 10개가 되면 release-v1.0.0을 만들어보겠습니다.
+* 단어가 10개가 되면 release-v1.0.0을 만들어보겠습니다. 그리고 pull request 주신 분들에게도 pul request 드리겠습니다, merge 해보실 수 있도록. 
+* pull request 주신 분들에게 pull request를 드릴 겁니다. 기여해주신 단어 앞에 새로운 단어를 추가하여 pull request를 드리겠습니다.
+* release-v1.0.0에 기여해주신 분들께 pull request를 드리고, 기여해주신 분들이 merge 후에 다시 pull request를 주시면 그걸 merge하여 release-v1.1.0을 만들어보겠습니다.
+
+# 왜 하나요?
+* git과 github을 경험해 봅시다.
+* 개발자가 아닌 분들에게 권합니다. 개발자와 이야기 할 수 있게 됩니다.
+* 아직 git을 안 써봤거나, 쓰지만 혼자 쓰는 개발자분들에게 권합니다. 협업합시다.
+* 실험해봅시다. 마음껏 추가하고 지우고 되돌리고 분기하고 합쳐봅시다. 이 명령을 쓰면 실제로 어떻게 될지 해보고 배웁시다.
+* 끝말잇기 하면서 친해집시다.
 
 # git이 낯선 분들에게
 1. github.com 에 가서 회원가입
@@ -19,3 +28,6 @@
 * http://rogerdudler.github.io/git-guide/index.ko.html
 * http://www.slideshare.net/dhrim/git-12030742
 * http://www.slideshare.net/ajaxiankr/2011-kth-h3-track-b-4-advanced-git-by-aj
+
+# Introduce
+* This repository is for learning git and github. Some people use only push and pull, more people should use pull request, merge, branch and version.
