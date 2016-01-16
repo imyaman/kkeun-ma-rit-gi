@@ -29,6 +29,8 @@ sudo
 orange
 earn
 name
+energy
+yale
 element
 nisioisin
 night
