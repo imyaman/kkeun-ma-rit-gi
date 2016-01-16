@@ -9,6 +9,7 @@ eliminate
 elucidate
 emerge
 elite
+envelope
 establish
 happy
 youth
