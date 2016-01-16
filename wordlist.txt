@@ -2,6 +2,7 @@ github
 blob
 brazil
 linear
+roar
 rails
 scopes
 smile
