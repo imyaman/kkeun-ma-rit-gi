@@ -3,6 +3,7 @@ blob
 brazil
 linear
 rails
+scopes
 smile
 eliminate
 elucidate
