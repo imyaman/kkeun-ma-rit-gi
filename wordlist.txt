@@ -27,3 +27,6 @@ nisioisin
 night
 truck
 knife
+embark
+keyboard
+disk
