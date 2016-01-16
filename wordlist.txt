@@ -12,6 +12,7 @@ elite
 establish
 happy
 youth
+hash
 helloworld
 dread
 demand
