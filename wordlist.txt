@@ -1,6 +1,7 @@
 github
 blob
 brazil
+legal
 linear
 roar
 rails
