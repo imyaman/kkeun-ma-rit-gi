@@ -28,6 +28,8 @@ status
 sudo
 orange
 earn
+name
+element
 nisioisin
 night
 truck
