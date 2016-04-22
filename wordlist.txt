@@ -20,6 +20,8 @@ helloworld
 dread
 demand
 demonstrate
+error
+rhyme
 eye
 enumerator
 radius
