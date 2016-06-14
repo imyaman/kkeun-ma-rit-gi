@@ -45,3 +45,4 @@ keep
 purpose
 epic
 call
+latin
