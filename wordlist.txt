@@ -49,3 +49,4 @@ latin
 navy
 young
 glitch
+hologram
