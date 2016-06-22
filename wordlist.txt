@@ -45,3 +45,8 @@ keep
 purpose
 epic
 call
+latin
+navy
+young
+glitch
+hologram
