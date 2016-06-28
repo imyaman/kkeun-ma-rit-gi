@@ -53,3 +53,4 @@ hologram
 member
 radio
 omnibus
+stone
