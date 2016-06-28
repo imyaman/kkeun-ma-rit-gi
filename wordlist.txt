@@ -50,3 +50,5 @@ navy
 young
 glitch
 hologram
+member
+radio
