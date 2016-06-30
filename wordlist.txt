@@ -54,3 +54,4 @@ member
 radio
 omnibus
 stone
+electric
