@@ -68,3 +68,4 @@ lost
 trade
 emergency
 yellow
+wheel
