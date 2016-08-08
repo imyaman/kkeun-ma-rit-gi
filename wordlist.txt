@@ -72,3 +72,4 @@ wheel
 liver
 room
 mushroom
+money
