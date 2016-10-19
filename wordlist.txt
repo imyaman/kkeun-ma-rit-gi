@@ -75,3 +75,4 @@ mushroom
 money
 yellow
 window
+wingmate
