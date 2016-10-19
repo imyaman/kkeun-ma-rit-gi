@@ -74,3 +74,4 @@ room
 mushroom
 money
 yellow
+window
