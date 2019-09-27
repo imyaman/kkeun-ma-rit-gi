@@ -66,6 +66,8 @@ kin
 null
 lost
 trade
+edit
+triangle
 emergency
 yellow
 wheel
