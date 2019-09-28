@@ -42,6 +42,8 @@ knife
 embark
 keyboard
 disk
+kill
+lick
 keep
 purpose
 epic
