@@ -80,6 +80,8 @@ liver
 room
 mushroom
 money
+yum
+magician
 yellow
 wingmate
 eyebrow
