@@ -73,6 +73,8 @@ edit
 triangle
 emergency
 yellow
+wacky
+youtube
 wheel
 liver
 room
