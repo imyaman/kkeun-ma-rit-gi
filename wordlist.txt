@@ -88,6 +88,8 @@ eyebrow
 window
 wood
 dragon
+nabe
+enlighten
 nod
 dream
 mild
