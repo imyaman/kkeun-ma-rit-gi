@@ -79,6 +79,8 @@ room
 mushroom
 money
 yellow
+wingmate
+eyebrow
 window
 wood
 dragon
