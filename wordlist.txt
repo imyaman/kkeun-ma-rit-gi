@@ -99,8 +99,3 @@ organ
 necessary
 yield
 document
-teacher
-remember
-risk
-kill
-list
