@@ -104,3 +104,5 @@ remember
 risk
 kill
 list
+task
+kind
