@@ -106,3 +106,4 @@ kill
 list
 task
 kind
+darkness
