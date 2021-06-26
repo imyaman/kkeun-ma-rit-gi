@@ -104,6 +104,11 @@ remember
 risk
 kill
 list
+tiger
+reverse
+eight
+teen
+not
 task
 kind
 darkness
