@@ -113,3 +113,4 @@ task
 kind
 darkness
 stress
+simple
