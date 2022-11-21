@@ -118,3 +118,4 @@ estimate
 enter
 restore
 evaluate
+effort
