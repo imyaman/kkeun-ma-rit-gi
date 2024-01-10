@@ -82,7 +82,7 @@ mushroom
 money
 yum
 magician
-yellow
+yaw
 wingmate
 eyebrow
 window
@@ -102,7 +102,7 @@ document
 teacher
 remember
 risk
-kill
+keel
 list
 tiger
 reverse
